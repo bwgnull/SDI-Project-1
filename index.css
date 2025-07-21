@@ -1,0 +1,55 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 20vh;       
+    margin: auto;
+    background-color: #FBEFDB;            
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #00182E;
+    text-align: center;
+}
+footer {
+    display: grid;
+    place-items: center;
+    height: 20vh;       
+    margin: auto;         
+}
+
+#Query-box {
+    display: grid;
+    border-color: #00182E;
+    border-width: 4px;
+    place-items: center;
+    height: auto;       
+    margin: 0;         
+}
+
+#random-word-fieldset {
+    font-style: oblique;
+    border-color: #00182E;
+    border-width: 4px;
+    border-style: wavy;
+}
+
+#signup-fieldset {
+    font-style: oblique;
+    border-color: #00182E;
+    border-width: 4px;
+    border-style: wavy;
+}
+
+#search-fieldset {
+    font-style: oblique;
+    border-color: #00182E;
+    border-width: 4px;
+    border-style: wavy;
+}
+
+#logo {
+    display: grid;
+    place-items: right;
+    margin: auto;
+}
