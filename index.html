@@ -6,16 +6,25 @@
         <title>Fetch Definition</title>
         <link rel="stylesheet" href="./index.css">
         <img id="logo"
-            src="./ChatGPT Image Jul 21, 2025, 12_39_32 PM.png"  width="650" height="450"
+            src="./ChatGPT Image Jul 22, 2025, 09_54_04 AM.png"  width="650" height="450"
             alt="Fetch Definition Logo">
+        <audio id="audio">
+    <source src="./nothing-beats-a-jet2-holiday.mp3" type="audio/mpeg">
+    </audio>
+
     </head>
 
     <body>
+
+        <audio id="reverb">
+    <source src="./Fart-Reverb-Sound-Effect.mp3" type="audio/mpeg">
+    </audio>
+
         <fieldset id="Query-box">
             <br>
             <input type="text" id="user-query" placeholder="Query Here"/>
             <br>
-            <button id="search-button">Search</button>
+            <button id="search-button" onclick="document.getElementById('reverb').play()">Search</button>
             <br>
         </fieldset>
 
@@ -32,7 +41,7 @@
             <div>
                 <h4>I'm Feeling Lucky</h3>
                 <p>Click the button to search for a random definition</p>
-                <button id="random-button">I'm Feeling Lucky</button>
+                <button id="random-button" onclick="document.getElementById('audio').play()">I'm Feeling Lucky</button>
             </div>
             <br>
         </fieldset>

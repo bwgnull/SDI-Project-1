@@ -23,7 +23,7 @@ function search(inputText) {
                 <p> Definition: ${definitionData[0].meanings[0].definitions[0].definition}</p>
                 <p> Synonyms: ${definitionData[0].meanings[0].definitions[0].synonyms}</p>
                 <p> Antonyms: ${definitionData[0].meanings[0].definitions[0].antonyms}</p>
-                <p> Origins: ${definitionData.origin}</p>
+                <p> Origins: ${definitionData[0].origin}</p>
                 <p> Phonetics: ${definitionData[0].phonetics[0].audio}</p>
                 </fieldset
             `;

@@ -1,9 +1,17 @@
+@keyframes pulseBackground {
+    0%, 100% {
+    background-color: #ffbbaa;
+    }
+    50% {
+    background-color: #7fafff;
+    }
+}
+
 body {
     display: grid;
     place-items: center;
-    height: 20vh;       
     margin: auto;
-    background-color: #FBEFDB;            
+    animation: pulseBackground 3s ease-in-out infinite;
 }
 
 h1 {
